@@ -1,0 +1,36 @@
+---
+title: "6주차 과제"
+output: html_document
+date: '2022-04-17'
+---
+# 3
+```{r}
+sqrt((4+3)*(2+5))
+
+((1+2)/(4+5))^3
+
+factorial(10)+12*23
+
+x=15; y=3
+sqrt((3*(x^2)+2*(y^3))/(x+y)*(x-y))
+
+cos(pi/3)
+```
+
+# 4
+```{r}
+name<-c("김민호","이슬하","최민희","반기남")
+gender<-c("남","여","여","남")
+hobby<-c("독서","등산","게임","축구")
+age<-c(25,23,28,29)
+
+data_test<-data.frame(name, gender, hobby, age)
+data_test
+```
+
+
+# 5
+```{r}
+data_test[2,]
+```
+
